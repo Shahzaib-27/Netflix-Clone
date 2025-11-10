@@ -1,16 +1,14 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Netflix Clone – Frontend Project<br>
+Overview<br>
+<br>
+This is a Netflix-inspired front-end clone built using HTML, CSS, and JavaScript (or React, if you used it).<br>
+It replicates the look and feel of Netflix’s homepage — including a stylish hero section, movie sliders, responsive layout, and animated buttons.<br>
+<br>
+Features:
+<br>
+Responsive Design – Works perfectly on all screen sizes<br>
+Navigation Bar with Sign In button<br>
+Dynamic Backgrounds and sections<br>
+Mobile-Friendly Grid & Flex Layouts<br>
+FAQ Section with open/close toggles<br>
+Fast Loading and optimized styling<br>
