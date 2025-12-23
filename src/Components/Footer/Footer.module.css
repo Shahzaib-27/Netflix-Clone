@@ -1,0 +1,134 @@
+.footcon{ 
+  
+  background-color: black;
+
+  padding:40px 30px; 
+  color: white;
+
+}
+
+.fctext{ 
+  text-align:center; 
+  margin-bottom:20px; 
+  
+}
+
+.fctext input{ 
+  padding:20px; 
+
+  margin-right:12px; 
+
+  
+  border-radius:8px; 
+
+  background:rgb(31, 30, 30); 
+  color:#fff; 
+
+}
+
+.fctext input::placeholder{
+color: rgba(201, 199, 199, 0.932);
+}
+
+.fctext button{
+
+background-color: red;
+color: white;
+
+width: 200px;
+height: 8vh;
+
+font-size: 1.6rem;
+
+
+border-radius: 5px;
+
+transition: all 0.4s ease;
+cursor: pointer;
+}
+
+
+.fctext button:hover{
+
+background-color: rgba(255, 0, 0, 0.795);
+
+}
+
+.h3 a{
+
+margin-left: 170px;
+color: white;
+
+}
+
+.dtext2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dt2 ,.dt3,.dt4,.dt5{
+  margin-right: 90px;
+}
+
+.dt2 a{
+color: white;
+display: flex;
+text-align: center;
+
+margin-bottom: 15px;
+
+}
+
+.dt3 a{
+color: white;
+display: flex;
+text-align: center;
+
+margin-bottom: 15px;
+}
+
+.dt4 a{
+color: white;
+display: flex;
+text-align: center;
+
+margin-bottom: 15px;
+}
+
+.dt5 a{
+color: white;
+display: flex;
+text-align: center;
+
+margin-bottom: 15px;
+}
+
+
+.checkbox{
+  margin-left: 170px;
+}
+
+.checkbox select{
+  padding: 10px;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+}
+
+.checkbox select option{
+  background: black;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.dt123 h3{
+  margin-left: 170px;
+  color: rgb(231, 227, 227);
+}
+
+.dt123 p{
+  margin-left: 170px;
+  margin-bottom: 100px;
+}

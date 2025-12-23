@@ -1,17 +1,23 @@
-import HedearData from "./header.jsx"
-import MainSecData from "./main_section.jsx"
-import FooterAPP from "./Footer.jsx"
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-function App() {
- 
+import LayoutData from "./Components/Layout/Layout.jsx";
 
+
+
+export default function App() {
   return (
     <>
-    <HedearData/>
-    <MainSecData/>
-    <FooterAPP/>
+
+
+    <BrowserRouter>
+      <Routes>
+
+
+        <Route path="/" element={<LayoutData/>} />
+
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }
-
-export default App

@@ -1,0 +1,55 @@
+.nav{
+  padding: 10px 20px;
+  height:72px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  
+  background: linear-gradient(180deg, rgba(0,0,0,0.45) 0%, transparent 100%);
+}
+
+.navdata{ 
+  display:flex; 
+  align-items:center; 
+  
+  width:99%; 
+
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px;
+}
+
+.navdata img{ 
+  width:170px; 
+  max-width:40%; 
+
+  margin:0px;
+
+  height:auto; 
+  object-fit:contain; 
+}
+
+.sign_btn{  
+  margin-left:auto;
+  
+  
+  background:var(--accent);
+
+  color:white;
+
+  border:none;
+  
+  padding:10px 16px;
+  
+  border-radius:8px;
+  
+  cursor:pointer;
+  
+  font-weight:600;
+}
+
+.navdata a{
+  color:white;
+  letter-spacing: 1px;
+}
