@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-body{
+.body{
     background: linear-gradient(180deg
     ,rgb(185, 4, 4) ,black 50%);
     background-position: center;
@@ -15,26 +15,33 @@ body{
 }
 
 
-.border{
-    border-bottom:1px solid rgb(172, 60, 60);
-}
-
-.border img{
- margin-left: 150px;
-}
+/* header */
+/* header */
+/* header */
 
 .container  img{
     
     color: red;
-
+ 
     width: 210px;
 
     text-shadow: 0px 0px 0px 20px black;
 
     cursor: pointer;
 
-
 }
+
+.border{
+    border-bottom:1px solid rgb(172, 60, 60);
+}
+
+.border img{
+    margin-left: 150px;
+}
+
+/* MainSection */
+/* MainSection */
+/* MainSection */
 
 
 .maincontent{
@@ -44,42 +51,6 @@ body{
     align-items: center;
 
     color: white;
-
-    /* border: 2px solid white; */
-    /* width: 100%; */
-    /* height: 40vh; */
-
-    padding: 20px;
-    margin: 10px;
-
-}
-
-.maincontentsecond{
-    padding: 20px;
-    margin: 20px;
-
-    transform: scale(1.2);
-}
-
-.maincontent h1{
-    font-size: 32px;
-    
-}
-
-.maincontent h2{
-    font-size: 18px;
-    letter-spacing: 1px;
-
-    color: #ffffff96;
-}
-
-.maincontent input{
-    width: 370px;
-
-    margin:10px 0px 20px 0px;
-    padding: 15px;
-
-    background-color: rgba(0, 0, 0, 0.548);
     color: rgb(253, 253, 253);
 
     font-size: 15px;
@@ -95,7 +66,7 @@ body{
     padding: 10px;
 
     border-radius: 8px;
-    width: 370px;
+        width: 370px;
 
     background-color: red;
     color: white;
@@ -125,7 +96,6 @@ body{
     margin: 20px;
 
     color: white;
-
 }
 
 
@@ -142,6 +112,8 @@ body{
 
 
 
+/* Footer */
+/* Footer */
 /* Footer */
 
 .footcontainerback{
