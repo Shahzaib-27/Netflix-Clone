@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import LayoutData from "./Components/Layout/Layout.jsx";
+import SignData from "./Components/SignUpPage/COMPONENTS/Layout/layoutdata.jsx"
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
 
-        <Route path="/" element={<LayoutData/>} />
+        {/* <Route path="/" element={<LayoutData/>} /> */}
+        <Route path="/" element={<SignData/>} />
 
       </Routes>
     </BrowserRouter>
