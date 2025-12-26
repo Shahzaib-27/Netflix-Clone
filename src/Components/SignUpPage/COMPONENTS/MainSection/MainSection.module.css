@@ -1,0 +1,89 @@
+.maincontent{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    color: rgb(253, 253, 253);
+
+    font-size: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.maincontentsecond h2{
+    color: rgb(155, 139, 139);
+    /* letter-spacing: 1px; */
+    
+    margin-bottom: 10px;
+}
+
+.maincontentsecond input{
+    padding: 20px;
+    
+    width: 90%;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    background-color: black;
+    color: white;
+
+    font-size: 1.2rem;
+}
+
+.maincontentsecond input::placeholder{
+    color: white;
+}
+
+.maincontent button{
+    padding: 10px;
+
+    border-radius: 8px;
+        width: 370px;
+
+    background-color: red;
+    color: white;
+
+    font-size: 1.2rem;
+
+}
+
+.maincontent select {
+ 
+    margin: 10px;
+    width: 90px;
+
+    border: none;
+
+    background: transparent;
+    color: white;
+
+}
+
+.maincontentsecond option {
+
+    background-color: rgb(0, 0, 0);
+    
+    padding: 20px;
+    margin: 20px;
+
+    color: white;
+}
+
+
+.maincontentsecond p{
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    margin-bottom: 20px;
+}
+
+.maincontentsecond a{
+    color: white;
+}

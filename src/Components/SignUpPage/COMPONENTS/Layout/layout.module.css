@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    background: linear-gradient(180deg
+    ,rgb(185, 4, 4) ,black 50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 480px) {
+    .body {
+        background-size: auto;
+    }
+
+    .container img {
+        width: 120px;
+        margin-left: 10px;
+    }
+
+    .maincontent h1 {
+        font-size: 20px;
+    }
+
+    .maincontent h2 {
+        font-size: 12px;
+    }
+
+    .maincontent input,
+    .maincontent button {
+        width: 100%;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .maincontent select {
+        width: 40px;
+        margin: 1px 0;
+    }
+
+    .maincontentsecond p {
+        font-size: 9px;
+    }
+
+    .footcontainer {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container img {
+        width: 150px;
+        margin-left: 50px;
+    }
+
+    .maincontent {
+        flex-direction: column;
+        
+        padding: 15px;
+        margin: 5px;
+
+        text-align: center;
+    }
+
+    .maincontent h1 {
+        font-size: 24px;
+    }
+
+    .maincontent h2 {
+        font-size: 14px;
+    }
+
+    .maincontent input,
+    .maincontent button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .maincontent select {
+        width: 60px;
+        margin: 5px 0;
+    }
+
+    .maincontentsecond {
+        transform: scale(1);
+        margin: 10px 0;
+    }
+
+    .border img {
+        margin-left: 20px;
+    }
+
+    .footcontainer {
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .fa1,
+    .fa2 {
+        margin-right: 0;
+        padding: 10px;
+    }
+}

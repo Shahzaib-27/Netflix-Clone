@@ -11,8 +11,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
 
-        {/* <Route path="/" element={<LayoutData/>} /> */}
-        <Route path="/" element={<SignData/>} />
+        <Route path="/" element={<LayoutData/>} />
+        <Route path="/signinform" element={<SignData/>} />
 
       </Routes>
     </BrowserRouter>

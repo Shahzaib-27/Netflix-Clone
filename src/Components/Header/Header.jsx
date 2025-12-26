@@ -1,6 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./Header.module.css"
 
+
 export default function HeaderFile() {
+
+const navigate = useNavigate();
 
   return (
     <>
@@ -10,7 +14,7 @@ export default function HeaderFile() {
           <img src="/Images/img.png" alt="Netflix" id="img" />
 
           <button  id={styles.fp} className={styles.sign_btn}>
-              <a > 
+              <a  onClick = { () => navigate("/signinform ") } > 
               Sign in
               </a>
           </button>

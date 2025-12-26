@@ -1,0 +1,48 @@
+.footcontainerback{
+
+    margin-top: 150px;
+    background-color:#161616;
+    color: white;
+    
+}
+.footcontainerback h3{
+    padding: 30px;
+}
+
+.footcontainerback a{
+      color: #ffffff;
+    
+}
+
+.footcontainer{
+
+    background-color:#161616;
+    color: white;
+    
+    padding: 30px; 
+
+    display: flex;
+    margin: 10px 0px 20px 190px;
+}
+
+.fa1{
+    
+    margin-right: 25px;
+    padding: 20px;
+
+    cursor: pointer;
+}
+
+
+.fa2{
+
+    margin-right: 50px;
+    padding: 20px;
+
+    cursor: pointer;
+
+}
+
+
+
+
