@@ -1,16 +1,38 @@
-# React + Vite
+🎬 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Netflix-inspired web application that demonstrates a complete authentication flow and a modern responsive UI.
+Users can Sign Up, then Log In, and finally access the main website interface.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔐 Signup Page
 
-## React Compiler
+Create a new account
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Basic input validation (email, password, age, etc.)
 
-## Expanding the ESLint configuration
+🔑 Login Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Login using registered credentials
+
+Redirects to the main website after successful login
+
+🌐 Main Website
+
+Accessible only after login
+
+Netflix-style UI layout
+
+📱 Responsive Design
+
+Works on desktop, tablet, and mobile screens
+
+🛠️ Technologies Used
+
+HTML – Page structure
+
+CSS / Tailwind CSS – Styling & layout
+
+JavaScript – Logic & authentication flow
+
+React.js – Component-based UI (if used)
