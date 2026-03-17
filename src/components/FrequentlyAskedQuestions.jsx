@@ -41,38 +41,41 @@ export default function FAQSection() {
 
   return (
     <section className="bg-[#141414] py-16">
-      <div className="max-w-4xl mx-auto px-4">
-        <h1 className="text-4xl md:text-5xl font-bold text-white text-center mb-12">
-          Frequently Asked Questions
-        </h1>
+        <div className="max-w-4xl mx-auto px-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-white text-center mb-12">
+            Frequently Asked Questions
+          </h1>
 
-        <div className="space-y-4">
-          {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className="bg-[#222] rounded-md overflow-hidden"
-            >
-              <button
-                onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center px-6 py-5 text-left text-white text-lg font-medium hover:bg-[#333] transition-colors duration-300 focus:outline-none"
-              >
-                {faq.question}
-                <span className={`text-2xl font-bold transition-transform duration-300 ${openIndex === index ? "rotate-45" : ""}`}>
-                  +
-                </span>
-              </button>
-
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
               <div
-                className={`px-6 pb-5 text-gray-300 text-base transition-all duration-500 ease-in-out ${
-                  openIndex === index ? "max-h-96 mt-2 opacity-100" : "max-h-0 opacity-0"
-                } overflow-hidden`}
+                key={index}
+                className="bg-[#222] rounded-md overflow-hidden hover:bg-[#333]" 
               >
-                <p>{faq.answer}</p>
+                <button
+                  onClick={() => toggleFAQ(index)}
+                  className="w-full flex justify-between items-center px-6 py-6  text-white text-lg font-medium  transition-all duration-300 ease-in-out focus:outline-none cursor-pointer"
+                >
+                  {faq.question}
+                  <span className={`text-2xl font-bold transition-all duration-300 ease-in-out
+                    ${openIndex === index ? "rotate-45" : ""}`}>
+                    +
+                  </span>
+                </button>
+
+                <div
+                  className={`px-6 pb-5 text-gray-300 text-base transition-all duration-500 ease-in-out ${
+                    openIndex === index ? "max-h-96 mt-2 opacity-100" : "max-h-0 opacity-0"
+                  } overflow-hidden`}
+                >
+                  <p>{faq.answer}</p>
+                </div>
+                
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+          
         </div>
-      </div>
     </section>
   );
 }

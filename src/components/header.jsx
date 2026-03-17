@@ -16,13 +16,15 @@ export default function HeaderFile() {
             src="/img.png"
             alt="Netflix"
             className="w-28 sm:w-32 md:w-36 hover:opacity-80 transition"
+            onClick={() => window.scrollTo({ top:" 0px", behavior:"smooth" })}
           />
         </button>
 
         {/* Sign In Button */}
         <button
           onClick={() => navigate("/netflixloginpage")}
-          className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded font-semibold transition"
+          className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded font-semibold transition-all
+          duration-300 ease-in-out cursor-pointer"
         >
           Sign In
         </button>

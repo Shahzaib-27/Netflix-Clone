@@ -3,21 +3,19 @@ import React from "react";
 export default function MainFile() {
   return (
     <main className="bg-[url('/img3.jpeg')] text-white min-h-screen flex items-center justify-center px-4">
-      
-      <section className="max-w-3xl text-center">
-        
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
-          Unlimited movies, TV <br /> shows, and more
-        </h1>
-        
-        <h5 className="text-lg sm:text-xl mb-4 font-medium">
-          Starts at Rs 250. Cancel anytime.
-        </h5>
-        
-        <p className="text-gray-300 mb-6 text-sm sm:text-base">
-          Ready to watch? Enter your email to create or <br />
-          restart your membership.
-        </p>
+      <section className="max-w-3xl text-center"> 
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
+            Unlimited movies, TV <br /> shows, and more
+          </h1>
+          
+          <h5 className="text-lg sm:text-xl mb-4 font-medium">
+            Starts at Rs 250. Cancel anytime.
+          </h5>
+          
+          <p className="text-gray-300 mb-6 text-sm sm:text-base">
+            Ready to watch? Enter your email to create or <br />
+            restart your membership.
+          </p>
 
         {/* Call to Action Form */}
         <form className="flex flex-col sm:flex-row justify-center items-center gap-2">
