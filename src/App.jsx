@@ -1,17 +1,21 @@
-import HedearData from "./header.jsx"
-import MainSecData from "./main_section.jsx"
-import FooterAPP from "./Footer.jsx"
+
+import HomePage from "./components/Home.jsx"
+
+import  NetflixLoginPage from "./pages/NetflixLoginPage/index.jsx"
+
+
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
- 
-
   return (
-    <>
-    <HedearData/>
-    <MainSecData/>
-    <FooterAPP/>
-    </>
-  );
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/netflixloginpage" element={<NetflixLoginPage />} />
+        </Routes> 
+       
+    </BrowserRouter>
+  )
 }
 
 export default App
